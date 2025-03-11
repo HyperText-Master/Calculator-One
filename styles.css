@@ -1,0 +1,66 @@
+table, td {
+	text-align: center;
+
+}
+
+table {
+	border: 2px solid white;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: black;
+	box-shadow: 0 0 20px black;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+	padding: 1px;
+	font-size: ;
+}
+
+button {
+	user-select: none;
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	background-color: #2A2A2C;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 100%;
+}
+
+.grey {
+	background-color: #5C5C5F;
+}
+
+.orange {
+	background-color: #FF9F09;
+}
+
+body {
+	font-family: arial;
+	background-color: lightgrey;
+}
+
+p {
+	color: white;
+	font-size: 30px;
+	margin: 0px;
+}
+
+.header {
+	text-align: right;
+	height: 55px;
+
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+h1 {
+	font-family: times new roman;
+}
