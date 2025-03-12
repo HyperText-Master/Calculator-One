@@ -4,6 +4,8 @@ const buttonArray = Array.from(buttons);
 const enter = document.querySelector('.enter')
 const deleteElement = document.querySelector('.deleteElement')
 const eraser = document.querySelector('.eraser');
+const multiply = document.querySelector('.js-multiply')
+const divide = document.querySelector('.js-divide')
 
 buttonArray.forEach((button) => {
 	button.addEventListener('click', () => {
@@ -25,4 +27,13 @@ eraser.addEventListener('click', () => {
 	resultElement.innerHTML = resultElement.innerHTML.slice(0, -1);
 
 })
+
+multiply.addEventListener('click', () => {
+	resultElement.innerHTML += '*'
+})
+
+divide.addEventListener('click', () => {
+	resultElement.innerHTML += '/'
+})
+
 
